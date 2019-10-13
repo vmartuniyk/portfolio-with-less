@@ -102,12 +102,12 @@
                    </div>
                </div><!--portfolio-col -->
                <div class="portfolio__col" data-cat="website">
-                   <div class="work" data-modal="#modal_project_1">
+                   <div class="work" data-modal="#modal_project_2">
                        <img  class="work__image" src="https://placehold.it/370x300" alt="">
                        <div class="work__content">
                            <div class="work__cat">Category: website</div>
                            <div class="work_title">
-                               Project title
+                               Project title 2
                                <time class="work__date" datetime="2019-25-03 19:00">2019</time>
                            </div>
                        </div>
@@ -346,7 +346,15 @@
          
           <div class="modal-work">
              <div class="modal-work__preview">
-                 <img class="modal-work__photo"  src="https://placehold.it/790x780" alt="">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo"  src="https://placehold.it/790x780" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo"  src="https://placehold.it/790x780/333" alt="">
+                    </div>
+                </div>
+                 
              </div> 
              <div class="modal-work__content">
                 <div class="modal-work__header">
@@ -364,10 +372,10 @@
                    
                 </div>
                 <div class="modal-work__footer">
-                    <button class="modal-work__btn">
+                    <button class="modal-work__btn slickPrev">
                     <img src="images/prev.svg" height="12px" alt="">
                     Previous</button>
-                    <button class="modal-work__btn">Next
+                    <button class="modal-work__btn slickNext">Next
                     <img src="images/next.svg" height="12px" alt=""></button>
                 </div>
                 
@@ -482,6 +490,161 @@
        </div>
    </div> <!--Resume modal -->
    
+   <!--About project modal -->
+   <div class="modal" id="modal_project_2">
+       <div class="modal__dialog">
+         <button type="button" class="modal__close" data-close="">
+             <img src="images/modal_close.svg" alt="">
+         </button>
+         
+          <div class="modal-work">
+             <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo"  src="https://placehold.it/790x780" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo"  src="https://placehold.it/790x780/333" alt="">
+                    </div>
+                </div>
+                 
+             </div> 
+             <div class="modal-work__content">
+                <div class="modal-work__header">
+                     <h3 class="modal-work__title">Project title</h3>
+                     <div class="modal-work__info">
+                        CATEGORY <span class="modal-work__info-divider">|</span> 2019
+                    </div>
+                </div>
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Client:</div>
+                    <div class="modal-work__client-company">Creative agency</div>
+                </div>
+                <div class="modal-work__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quibusdam sit esse recusandae nesciunt, molestiae, provident magnam nam. Nam nostrum earum maiores, tempore eius ducimus dolores hic magnam tempora explicabo.</p> 
+                   
+                </div>
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev">
+                    <img src="images/prev.svg" height="12px" alt="">
+                    Previous</button>
+                    <button class="modal-work__btn slickNext">Next
+                    <img src="images/next.svg" height="12px" alt=""></button>
+                </div>
+                
+             </div> 
+          </div>
+           
+       </div>
+   </div>
+   
+   <!--Resume Modal -->
+   <div class="modal" id="modal_resume">
+       <div class="modal__dialog">
+         <button type="button" class="modal__close" data-close="">
+             <img src="images/modal_close.svg" alt="">
+         </button>
+         <div class="modal__content">
+             <h3 class="modal__title text-center">
+                 RESUME
+             </h3>
+             <div class="text-center">
+                 <a class="btn btn--thin" href="#">Download PDF</a>
+                 <a  class="btn btn--thin"  href="#">Print</a>    
+             </div>
+             
+             <div class="timeline">
+                 <div class="timeline__col timeline__col--left ">
+                     <div class="timeline__title">Experiance</div>
+                     <div class="timeline__item">
+                         <time class="timeline__date" datetime="11-10-2019"> 2017- <b>Present</b></time>
+                         <h5 class="timeline__subtitle">Freelancer</h5>
+                         <div class="timeline__position">Art Director</div>
+                         <div class="timeline__text">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quae suscipit recusandae, voluptatum exercitationem, deserunt, eligendi totam consectetur voluptatibus, mollitia sapiente eum dolor distinctio! Fugiat unde ab dignissimos doloribus pariatur.</p>
+                         </div>
+                     </div>
+                    <div class="timeline__item">
+                         <time class="timeline__date" datetime="11-10-2019"> 2017- <b>Present</b></time>
+                         <h5 class="timeline__subtitle">Freelancer</h5>
+                         <div class="timeline__position">Art Director</div>
+                         <div class="timeline__text">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quae suscipit recusandae, voluptatum exercitationem, deserunt, eligendi totam consectetur voluptatibus, mollitia sapiente eum dolor distinctio! Fugiat unde ab dignissimos doloribus pariatur.</p>
+                         </div>
+                     </div>
+                      <div class="timeline__item">
+                         <time class="timeline__date" datetime="11-10-2019"> 2017- <b>Present</b></time>
+                         <h5 class="timeline__subtitle">Freelancer</h5>
+                         <div class="timeline__position">Art Director</div>
+                         <div class="timeline__text">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quae suscipit recusandae, voluptatum exercitationem, deserunt, eligendi totam consectetur voluptatibus, mollitia sapiente eum dolor distinctio! Fugiat unde ab dignissimos doloribus pariatur.</p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="timeline__col timeline__col--right">
+                     <h5 class="timeline__title">Education</h5>
+                      <div class="timeline__item">
+                         <time class="timeline__date" datetime="11-10-2019"> 2005 - 2010</time>
+                         <h5 class="timeline__subtitle">UI/UX Design</h5>
+                         <div class="timeline__position">LA University, USA</div>
+                     </div>
+                     <div class="timeline__item">
+                         <time class="timeline__date" datetime="11-10-2019"> 2002 - 2005</time>
+                         <h5 class="timeline__subtitle">UI/UX Design</h5>
+                         <div class="timeline__position">LA Collage of Art, USA</div>
+                     </div>
+                     <h5 class="timeline__title">Skills</h5>
+                     <div class="progress-bar">
+                        <div class="progress-bar__item">
+                             <div class="progres-bar__left">
+                               <div class="progress-bar__title">
+                                   UI/UX Design
+                               </div>  
+                             </div>
+                             <div class="progres-bar__right">
+                                 <div class="progress-bar__bar">
+                                     <div class="progress-bar__progress" style="width: 90%">  
+                                     </div>
+                                 </div>
+                             </div> 
+                        </div> <!--/progress-bar__item -->
+                     
+                         <div class="progress-bar__item">
+                             <div class="progres-bar__left">
+                               <div class="progress-bar__title">
+                                    UI/UX Design
+                               </div>  
+                             </div>
+                             <div class="progres-bar__right">
+                                 <div class="progress-bar__bar">
+                                     <div class="progress-bar__progress" style="width: 60%">  
+                                     </div>
+                                 </div>
+                             </div> 
+                        </div> <!--/progress-bar__item -->
+                       
+                     </div><!--/progress-bar -->
+                     <h5 class="timeline__title">Awards</h5>
+                      <div class="timeline__item">
+                         <time class="timeline__date" datetime="11-10-2019"> 2017</time>
+                         <h5 class="timeline__subtitle">THE BEST APP INTERFACE</h5>
+                         <div class="timeline__position">UI/UX Magazine</div>
+                         <div class="timeline__text">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quae suscipit recusandae, voluptatum exercitationem.</p>
+                         </div>
+                     </div>
+                 </div>
+             </div> <!--/timeline -->
+             <div class="text-center">
+                 <a class="btn" href="#" data-modal="#modal_hire_me">Hire me</a>
+             </div>
+         </div>
+           
+       </div>
+   </div> <!--Resume modal -->
+   
+   
+   
     <!--Contact Modal -->
    <div class="modal" id="modal_hire_me">
        <div class="modal__dialog modal__dialog--sm">
@@ -531,6 +694,7 @@
    
    <!--JS -->
    
+   <script src="js/slick.min.js"></script>
    <script src="js/app.js"></script>
     
 </body>
